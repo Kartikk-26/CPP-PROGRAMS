@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <string>
 
@@ -21,3 +22,28 @@ int main() {
 
     return 0;
 }
+=======
+#include <iostream>
+#include <string>
+
+class Student {
+public:
+    std::string name;
+    int roll_no;
+};
+
+int main() {
+    // Create an object of the Student class
+    Student student1;
+
+    // Assign values to the attributes of the object
+    student1.name = "John";
+    student1.roll_no = 2;
+
+    // Print the values
+    std::cout << "Name: " << student1.name << std::endl;
+    std::cout << "Roll No: " << student1.roll_no << std::endl;
+
+    return 0;
+}
+>>>>>>> 1b7018d398ee3c878bbc71fbcac1e3bd854c7f73
